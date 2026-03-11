@@ -5,8 +5,8 @@ A fully local Discord bot that runs **Qwen3.5-27B** on your machine via **Ollama
 ## Prerequisites
 
 - **Python 3.10+**
-- **NVIDIA GPU** with CUDA (RTX 5090 / 32GB VRAM recommended)
-- **Ollama** installed — https://ollama.com
+- **NVIDIA GPU** with CUDA 
+- **Ollama** — https://ollama.com
 - A **Discord Bot Token**
 
 ## 1. Create a Discord Bot
@@ -15,7 +15,7 @@ A fully local Discord bot that runs **Qwen3.5-27B** on your machine via **Ollama
 2. Click **New Application** → name it (e.g. "Chizuru")
 3. Go to **Bot** tab → click **Reset Token** → **copy the token**
 4. Under **Privileged Gateway Intents**, enable:
-   - **Message Content Intent** ✅
+   - **Message Content Intent**
 5. Go to **OAuth2 → URL Generator**:
    - Scopes: `bot`
    - Bot Permissions: `Send Messages`, `Read Message History`, `Read Messages/View Channels`
