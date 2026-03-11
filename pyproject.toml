@@ -1,0 +1,13 @@
+[project]
+name = "chizuru-ai"
+version = "0.1.0"
+description = "Local Discord bot powered by Qwen3.5-27B via Ollama"
+requires-python = ">=3.10"
+dependencies = [
+    "discord.py>=2.3.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+chizuru = "bot:main"
